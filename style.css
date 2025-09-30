@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  font-family: monospace;
+  color: white;
+}
+#gameCanvas {
+  display: block;
+  margin: auto;
+  background: linear-gradient(to bottom, #000010, #001030);
+}
+#ui {
+  text-align: center;
+  margin-top: 10px;
+}
+button {
+  padding: 10px 20px;
+  background: #0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background: #3f3;
+}
